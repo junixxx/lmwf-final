@@ -290,6 +290,94 @@ p {
   height: 100%;
 }
 
+/* ------------------------------Project Page --------------------------------------- */
+
+.section-projectpage {
+  height: 100%;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.section-projectpage img {
+  width: 300px;
+}
+.section-projectpage h3 {
+  color: var(--text-color-dark);
+  font-weight: 500;
+  margin: 2em;
+}
+.section-projectpage .article-btn {
+  text-decoration: none;
+  background-color: var(--primary-color-set1);
+  padding: 5px 15px;
+  color: var(--text-color-light);
+  border-radius: 16px;
+  transition: color 300ms ease-in-out;
+}
+.section-projectpage .article-btn:hover {
+  color: var(--text-color-dark);
+}
+.section-projectpage .socials {
+  margin: 1em;
+}
+.section-projectpage .socials a {
+  color: var(--secondary-color-set1);
+  margin: 10px;
+  transition: color 300ms ease-in-out;
+}
+.section-projectpage .socials a:hover {
+  color: var(--primary-color-set1);
+}
+
+/* --------------------------------- Contact Page Styles -------------------------------------------------- */
+.section-contact {
+  background-color: #eaeaea;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-contact .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.section-contact .section-text {
+  width: 50%;
+  padding-top: 14em;
+  padding-bottom: 14em;
+  text-align: center;
+  background-color: #ea5454;
+  background-size: 100%;
+}
+.section-contact .section-text a {
+  text-decoration: none;
+  color: var(--text-color-light);
+}
+.section-contact .section-text .email {
+  font-size: 1.2em;
+}
+.section-contact .section-text i {
+  color: var(--text-color-dark);
+  margin: 10px;
+  transition: color 300ms ease-in-out;
+}
+.section-contact .section-text i:hover {
+  color: var(--text-color-light);
+}
+.section-contact .section-image {
+  width: 50%;
+  text-align: center;
+  padding-top: 2em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.section-contact .section-image img {
+  width: 300px;
+}
+
 /* ------------------------------------------Footer Menu--------------------------------------------------- */
 .section-footer {
   padding-top: 2em;
@@ -539,6 +627,26 @@ p {
   .single-blog .wp-block-image img {
     width: 100%;
     height: 100%;
+  }
+  /* ------------------ Contact Page ----------------------- */
+  .section-contact .wrapper {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .section-contact {
+    height: 100%;
+  }
+  .section-contact .section-text {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .section-contact .section-image {
+    width: 100%;
+  }
+  .section-contact .section-image img {
+    width: 250px;
   }
 }
 

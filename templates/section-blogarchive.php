@@ -1,10 +1,10 @@
 <section class="container section-homeblogarea">
     <div class="section-text">
-        <h2>Latest Articles</h2>
+        <h2>Blog Articles</h2>
     </div>
     <div class="section-content">
         <?php
-        $postQuery = new WP_Query(array('category_name' => 'Blog Articles', 'order'   => 'ASC', 'posts_per_page' => 6));
+        $postQuery = new WP_Query(array('order'   => 'ASC', 'posts_per_page' => 99));
         if ($postQuery->have_posts()) : while ($postQuery->have_posts()) : $postQuery->the_post(); ?>
         <a href="<?php the_permalink(); ?>" class="box">
             <div>
@@ -38,6 +38,5 @@
         else : endif; ?>
     </div>
     <div class="loadButton">
-        <a href="<?php echo site_url('/blog-archive');  ?>">Load More Articles</a>
     </div>
 </section>

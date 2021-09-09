@@ -57,3 +57,26 @@ arrowRight.addEventListener("click", () => {
 });
 
 startSlide();
+
+// Join Newsletter Script
+
+const emailData = document.querySelector("#emailAddress");
+const emailBtn = document.querySelector("#emailBtn");
+const url =
+  "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdFxG7eXMrujShLvyP31c92ur-u1mK5AVjSOv2chWduWmbM0A/formResponse";
+
+const mainForm = document.querySelector("#mainForm");
+
+mainForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  fetch(url, {
+    method: "post",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    mode: "no-cors",
+    body: `emailAddress=${emailData.value}`,
+  }).then(() => {
+    window.location.replace("thank-you");
+  });
+});

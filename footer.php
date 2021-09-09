@@ -7,8 +7,10 @@
             <p>Want email notifications everytime new content is published? Join our newsletter campaign below!</p>
             <br>
             <div class="footer-input">
-                <input type="email" placeholder="Email Address" required>
-                <button>Join Newsletter</button>
+                <form id="mainForm">
+                    <input type="email" placeholder="Email Address" id="emailAddress" required>
+                    <button id="emailBtn">Join Newsletter</button>
+                </form>
             </div>
         </div>
         <div class="footer-socials">

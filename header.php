@@ -36,21 +36,24 @@
             <div class="nav-links">
                 <ul class="nav-text">
                     <li>
-                        <a href="<?php echo site_url() ?>">Projects</a>
+                        <a href="<?php echo site_url('/projects') ?>">Projects</a>
                     </li>
                     <li>
-                        <a href="<?php echo site_url() ?>">Blog</a>
+                        <a href="<?php echo site_url('/blog-archive') ?>">Blog</a>
                     </li>
                 </ul>
                 <ul class="nav-socials">
                     <li>
-                        <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/company/letsmakeworkfun" target="_blank"><i
+                                class="fab fa-linkedin fa-lg"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://web.facebook.com/Lets-Make-Work-Fun-103456025308947" target="_blank"><i
+                                class="fab fa-facebook fa-lg"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href="https://www.youtube.com/channel/UCixuMVm83kPpCjTDiLIvhSg" target="_blank"><i
+                                class="fab fa-youtube fa-lg"></i></a>
                     </li>
                 </ul>
             </div>

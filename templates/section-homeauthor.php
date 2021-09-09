@@ -3,7 +3,7 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed dolorem, dolor fugiat illo consequatur,
             mollitia perferendis vitae omnis, aliquam soluta magni nobis dolore quisquam. Impedit earum blanditiis ex
             labore tenetur!</p>
-        <a href="#">Get in Touch!</a>
+        <a href="<?php echo site_url('/contact-me') ?>">Get in Touch!</a>
     </div>
     <div class="section-image">
         <img src="<?php echo get_theme_file_uri('images/joebil-lotayco.png'); ?>"
