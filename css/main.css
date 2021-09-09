@@ -617,6 +617,15 @@ p {
     margin-right: 4px;
   }
 
+  /* ---------------------------Project Page ------------------------------- */
+  .section-projectpage h3 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .section-projectpage {
+    padding-top: 1em;
+  }
+
   /* ------------------------------Blog Content Single Page --------------------------------------- */
 
   .single-blog li {
