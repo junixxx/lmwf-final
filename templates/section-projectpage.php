@@ -5,7 +5,7 @@
             previous Clients and build bite-sized content where you can find it more insightful! </h3>
 
         <img src="<?php echo get_theme_file_uri('images/joebil-working-on-projects.png'); ?>"
-            alt="Joebil Working on his Most Recent Projects">
+            alt="Joebil Working on his Most Recent Projects" loading="lazy">
 
         <h3>In the meantime feel free to check some of my articles, or check out the videos on Youtube, and chat to the
             group at Discord! </h3>

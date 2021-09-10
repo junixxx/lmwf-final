@@ -9,7 +9,7 @@
         <a href="<?php the_permalink(); ?>" class="box">
             <div>
                 <div class="box-img">
-                    <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+                    <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" loading="lazy">
                 </div>
                 <div class="box-text">
                     <div>

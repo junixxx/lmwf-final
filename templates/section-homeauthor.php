@@ -7,7 +7,7 @@
     </div>
     <div class="section-image">
         <img src="<?php echo get_theme_file_uri('images/joebil-lotayco.png'); ?>"
-            alt="Joebil Lotayco crazy creator of Lets Make Work Fun!">
+            alt="Joebil Lotayco crazy creator of Lets Make Work Fun!" loading="lazy">
         <h4>
             Joebil L.
         </h4>

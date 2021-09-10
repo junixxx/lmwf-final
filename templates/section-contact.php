@@ -5,7 +5,8 @@
             <p>Feel free to send me an email, and I will get back to you as soon as I get to my inbox. Also, you can
                 reach
                 out to me through my social platforms.</p>
-            <img src="<?php echo get_theme_file_uri('images/joebil-contact-me.png'); ?>" alt="">
+            <img src="<?php echo get_theme_file_uri('images/joebil-contact-me.png'); ?>" alt="Joebil Lotayco Freelancer"
+                loading="lazy">
         </div>
         <div class="section-text">
             <div class="email"><i class="fas fa-envelope "></i><a
