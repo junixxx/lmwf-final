@@ -755,6 +755,7 @@ p {
   }
   /* ----------------Single Page Mobile Styles ------------------------- */
   .single-blog .heading {
+    padding-top: 2em;
     padding-left: 5%;
     padding-right: 5%;
     height: 100%;
