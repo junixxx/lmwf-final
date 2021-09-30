@@ -226,7 +226,8 @@ p {
 .section-homeblogarea .loadButton a:hover {
   color: var(--text-color-dark);
 }
-/* -----------------------------------------------------------Home Blog Area Styles-------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------Home Author Area Styles-------------------------------------------------------------------- */
 .section-homeauthor {
   display: flex;
   align-items: center;
@@ -234,6 +235,15 @@ p {
   justify-content: center;
   padding-top: 3em;
   padding-bottom: 3em;
+}
+.section-homeauthor .section-text {
+  width: 80%;
+}
+.section-homeauthor .section-image {
+  width: 10%;
+}
+.section-homeauthor .section-text p {
+  padding: 3em;
 }
 .section-homeauthor img {
   width: 100%;
@@ -248,7 +258,7 @@ p {
 .section-homeauthor .section-text {
   text-align: center;
 }
-.section-homeauthor .section-text a {
+.section-homeauthor .homeauthor-cta a {
   text-decoration: none;
   padding: 5px 15px;
   border-radius: 16px;
@@ -256,7 +266,7 @@ p {
   background-color: var(--primary-color-set1);
   transition: color 300ms ease;
 }
-.section-homeauthor .section-text a:hover {
+.section-homeauthor .homeauthor-cta a:hover {
   color: var(--text-color-dark);
 }
 .section-homeauthor .section-image {
@@ -695,9 +705,18 @@ p {
   }
   .section-homeauthor .section-text {
     margin-bottom: 20px;
+    width: 100%;
+  }
+  .section-homeauthor .section-text p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .section-homeauthor .section-image {
+    width: 100%;
   }
   .section-homeauthor .section-image img {
-    width: 70%;
+    width: 50%;
   }
   /* ----------------------------------- Footer Menu------------------------------------------ */
   .section-footer .footer-wrapper {

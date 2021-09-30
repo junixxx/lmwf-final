@@ -1,9 +1,10 @@
 <section class="container section-homeauthor">
     <div class="section-text">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed dolorem, dolor fugiat illo consequatur,
-            mollitia perferendis vitae omnis, aliquam soluta magni nobis dolore quisquam. Impedit earum blanditiis ex
-            labore tenetur!</p>
-        <a href="<?php echo site_url('/contact-me') ?>">Get in Touch!</a>
+        <p>Let's Make Work Fun is a way to share my experiences working from home and how I made it enjoyable and
+            productive. This is a way for me to help others who wants to get into that journey of working remotely and
+            starting their very first freelancing career or business. Join the LMWF community, and let's change the way
+            working from home is!</p>
+
     </div>
     <div class="section-image">
         <img src="<?php echo get_theme_file_uri('images/joebil-lotayco.png'); ?>"
@@ -16,5 +17,9 @@
         </h5>
         <a href="https://web.facebook.com/joebillotayco2/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/joebillotayco" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <div class='homeauthor-cta'>
+            <a href="<?php echo site_url('/contact-me') ?>">Get in Touch!</a>
+        </div>
+
     </div>
 </section>
