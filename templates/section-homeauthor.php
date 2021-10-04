@@ -1,8 +1,8 @@
 <section class="container section-homeauthor">
     <div class="section-text">
-        <p>Let's Make Work Fun is a way to share my experiences working from home and how I made it enjoyable and
-            productive. This is a way for me to help others who wants to get into that journey of working remotely and
-            starting their very first freelancing career or business. Join the LMWF community, and let's change the way
+        <p>Let's Make Work Fun (LMWF) is a way to share my experiences working from home and how I made it enjoyable and
+            productive. This is my way of helping those who want to start their journey of working remotely and land
+            their very first freelancing career or business. Join the LMWF community, and let's change the way how
             working from home is!</p>
 
     </div>
